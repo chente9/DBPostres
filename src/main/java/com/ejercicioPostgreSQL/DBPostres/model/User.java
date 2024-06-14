@@ -1,11 +1,7 @@
 package com.ejercicioPostgreSQL.DBPostres.model;
 
-import com.ejercicioPostgreSQL.DBPostres.repo.UserDto;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import org.springframework.data.annotation.Id;
+import com.ejercicioPostgreSQL.DBPostres.UserDto;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
@@ -31,6 +27,7 @@ public class User {
         this.name = userDto.getName();
         this.email = userDto.getEmail();
     }
+
 
 
     public Long getId() {

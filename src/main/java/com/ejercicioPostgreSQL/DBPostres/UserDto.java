@@ -1,4 +1,4 @@
-package com.ejercicioPostgreSQL.DBPostres.repo;
+package com.ejercicioPostgreSQL.DBPostres;
 
 public class UserDto {
 
@@ -27,3 +27,4 @@ public class UserDto {
         this.email = email;
     }
 }
+

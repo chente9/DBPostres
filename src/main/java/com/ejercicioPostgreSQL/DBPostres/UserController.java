@@ -1,10 +1,10 @@
 package com.ejercicioPostgreSQL.DBPostres;
 
-import com.ejercicioPostgreSQL.DBPostres.exception.UserNotFoundException;
-import com.ejercicioPostgreSQL.DBPostres.repo.UserDto;
+import com.ejercicioPostgreSQL.DBPostres.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.ejercicioPostgreSQL.DBPostres.model.User;
+import com.ejercicioPostgreSQL.DBPostres.exception.UserNotFoundException;
 
 import java.util.Optional;
 
